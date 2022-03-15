@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #c4c3ca;
+	background-color: #1f2029;
+	overflow-x: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td, th {
+    border: 0.1px solid #1f2029;
+    text-align: left;
+    padding: 8px;
+}
+table:nth-child(odd) {
+    background-color: #1f2029;
+}
+#heading {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+.formdiv {
+    max-width: 500px;
+    height: 290px;
+    margin: 100px auto 0 auto;
+    background-color: #2a2b38;
+    padding: 30px;
+    border-radius: 5px;
+}
+.maindiv {
+    max-width: 750px;
+    height: fit-content;
+    padding-bottom: 100px;
+    margin: 100px auto 0 auto;
+    background-color: #2a2b38;
+    padding: 30px;
+    border-radius: 5px;
+}
+form {
+    width: 100%;
+/* padding: 0 405px 0 45px; */
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    height: 48px;
+    padding: 3px;
+    margin-bottom: 13px;
+    background-color: #1f2029;
+    border: none;
+    border-radius: 5px;
+    color: #c4c3ca;
+    padding-left: 20px;
+    font-size: 19px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    border: none;
+    outline: none;
+    color: #c4c3ca;
+    font-size: 19px;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+div.flexbox#buttonwrapper {
+    justify-content: center;
+}
+.button {
+    padding: 13px 18px 13px 18px;
+    margin-top: 20px;
+    background-color: #c4c3ca;
+    border-radius: 5px;
+    border: none;
+    color: #1f2029;
+    font-size: 19px;
+    transition: 0.2s;
+}
+.button:hover {
+    color: #c4c3ca;
+    background-color: #1f2029;
+    cursor: pointer;
+}
+.heading {
+    color: #1f2029;
+    font-size: 19px;
+    width:fit-content; 
+    margin: 25px auto 0 auto; 
+    padding-bottom: 25px; 
+}
+
+@media only screen and (max-width: 360px) {
+    .maindiv {
+        padding: 15px;
+    }
+}
